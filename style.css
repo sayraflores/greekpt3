@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  a{
+    color: black;
+  }
+  
+  a:hover{
+    color:darkgoldenrod;
+  }
+  
+  li {
+    background-color: lightgoldenrodyellow;
+    color: black;
+    font-family: garamound;
+    font-size: 190%;
+    /* box sizing: border-box; */
+    display: inline;
+  }
+  /* hero css starts here */
+  /* css for hero title starts here */
+  .maintitle {
+    text-align: center;
+    padding: 3px;
+    color:black;
+    font-size: 320%;
+  }
+  
+  .heroimage {
+    background-image: url("images/hero-image.jpg");
+    opacity: 0.7;
+  /*   background-repeat: no-repeat; */
+    background-size: cover;
+    height: 600px;
+  }
+  /******* hero ends here *******/
+  
+  p{
+   /*  background-color: whitesmoke; */
+    font-size: 20px;
+    font-family: georgia;
+    margin: 0;
+    color: black;
+    text-transform: bold;
+  }
+  
+  p2{
+    /* background-color: whitesmoke; */
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+    margin:0;
+    color: b
+  }
+  
+  #default{
+    width: fixed;
+    position: fixed;  
+  }
+  
+  .category1 {
+    text-align:right;
+    position: relative;
+    right: 50px;
+    padding:0;
+    margin:0;
+    height:0;
+  }
+  
+  .category2 {
+    text-align:center;
+    padding:0;
+    margin:0;
+    height:0;
+   
+  }
+  /* css for nav bar */
+  .categories {
+    text-align:left;
+    padding:30px; 
+    margin:0;
+    background-color: lightgoldenrodyellow;
+    
+  }
+  
+
+  .my-form {
+    padding:20px;
+    font-size: 120%; 
+  }
+  
+  .my-form .form-group {
+    padding-bottom:15px;
+  }
+  
+  .my-form label{
+    display:block;
+  }
+  
+  .my-form input [type="text"], .my-form textarea{
+    padding:5px;
+    width:20%;
+  }
+  
+  .my-form input[type="submit"] {
+    background-color: darkgoldenrod;
+    color: white; /* color goes to text */
+    padding:10px 15px;
+    border:none;
+  }
+  
+  h2 {
+    font-family: garamound;
+    text-align:center;
+    text-decoration: underline;
+  }
+  
+  footer {
+  background-color: lightgray;
+    display: flex;
+  }
+  
+  .contacttitle {
+    background-color: lightsteelblue;
+    text-align: center;
+  }
+  
+  .sea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    padding-top: 10px;
+  }
+  
+  .logo {
+  height: 65px;
+ background-color: lightgray;
+  }
+  
+  .statement {
+  font-size: 20px;
+    font-family: georgia;
+    margin: 0;
+    padding-top: 20px;
+    text-align: center; 
+    background-color: lightgray;
+  }
+  
+  .todotitle {
+    background-color: lightsteelblue;
+    text-align: center;
+  }
+  
+  /* h3 {
+    text-alight: center;
+    font-family: georgia;
+  } */
+  
+  .chapel {
+    font-family: arial;
+    font-size: 20px;
+  }
+  
+  .santorinitext {
+    font-family: arial;
+    font-size: 20px;
+  }
+  
+  .food {
+  font-family: arial;
+    font-size: 20px;
+  }
+
+  .hero-text {
+      background-color: white;
+  }
